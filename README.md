@@ -1,7 +1,10 @@
 # SampleTechSpire
+<img src="https://github.com/tripathicle/SampleTechSpire/blob/main/techspire%20logo.jpg" />
 This project demonstrates secure VNet-to-VNet connectivity in Microsoft Azure using VNet Peering and implements custom RBAC to enforce least privilege access.
+  
 
 # 🌐 Enterprise-Grade Azure VNet Integration with Custom Roles
+<img src="https://github.com/tripathicle/SampleTechSpire/blob/main/Image1.png" />
 
 ## 📘 Project Title  
 **Secure Azure Networking with VNet Peering and Custom RBAC**
@@ -21,6 +24,8 @@ This project was implemented for Techspire’s client to simulate a real-world e
 ---
 
 ## 🔐 RBAC Scope of Access
+<img src="https://github.com/tripathicle/SampleTechSpire/blob/main/Image4.png" />
+
 
 The onboarded user is granted the following permissions:
 
@@ -32,8 +37,8 @@ The onboarded user is granted the following permissions:
 ---
 
 ## 📌 Tasks Performed
-
 ### 🔧 Network & VM Setup
+<img src="https://github.com/tripathicle/SampleTechSpire/blob/main/Image2.png" />
 - Created two Virtual Networks:
   - `Techspirevnet01` (10.0.0.0/16) with `Techspiresubnet01` (10.0.0.0/24)
   - `Techspirevnet02` (10.1.0.0/16) with `Techspiresubnet02` (10.1.0.0/24)
@@ -43,6 +48,7 @@ The onboarded user is granted the following permissions:
 - Configured **VNet Peering** between `Techspirevnet01` and `Techspirevnet02`
 
 ## 📡 Connectivity Testing
+<img src="https://github.com/tripathicle/SampleTechSpire/blob/main/Image3.png" />
 
 - Enabled **ICMP (Ping)** using PowerShell on both virtual machines  
 - Verified **cross-VM communication** through **RDP access** and **ping tests**
@@ -66,6 +72,7 @@ The onboarded user is granted the following permissions:
 ---
 
 ## 🏁 Project Outcomes
+<img src="https://github.com/tripathicle/SampleTechSpire/blob/main/Image5.png" />
 
 - ✅ Successfully implemented secure **VNet Peering** between isolated virtual networks  
 - ✅ Verified end-to-end **VM-to-VM connectivity** across peered networks  
